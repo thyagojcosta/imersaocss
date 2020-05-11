@@ -1,0 +1,38 @@
+body {
+    background-image: url('/img/back-site-a1.jpg');
+    background-size: auto 100vh;
+    font-family: Helvetica;
+    height: 100vh;
+}
+
+.menu {
+    background-color: white;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+a {
+    color: rgb(17, 77, 156);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.site-subtitle,
+.site-title {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.site-subtitle {
+    font-style: italic;
+}
